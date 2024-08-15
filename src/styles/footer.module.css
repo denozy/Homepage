@@ -1,0 +1,32 @@
+footer {
+  background-color: var(--clr-primary-1);
+  padding: var(--padding);
+  height: 20vh;
+}
+
+.footerBlocksContainer {
+  margin: var(--margin);
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding);
+  height: auto;
+}
+
+.headerLinksContainer,
+a {
+  text-decoration: underline;
+  text-decoration-color: var(--clr-primary-3);
+}
+
+.footerLinksContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: var(--padding);
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

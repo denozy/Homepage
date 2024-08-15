@@ -1,0 +1,104 @@
+.hero {
+  background-color: rgb(43, 31, 31);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-evenly;
+}
+
+section {
+  margin: var(--margin);
+}
+
+.introduction {
+  border-radius: 10px;
+  background-position: 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nameContainer {
+  line-height: 1;
+}
+
+/* .aboutMeContainer {
+  margin: var(--margin);
+  padding: var(--padding);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.descriptionText {
+  width: 30vw;
+  font-size: var(--font-size);
+}
+
+.skillsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.skill {
+  background-color: var(--clr-primary-3);
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  transition: background-color 0.5s ease;
+  font-size: var(--font-size);
+  border-radius: 5px;
+}
+
+.skill .tooltip {
+  padding: 3px;
+  visibility: hidden;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 125%;
+  left: 0%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.skill:hover {
+  background-color: var(--clr-primary-6);
+  cursor: default;
+}
+
+.skill:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.frontend:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.backend {
+  background-color: rgb(95, 20, 15);
+}
+
+.linkIcons,
+a {
+  text-decoration: none;
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: nowrap;
+}
+
+.linkIcon > img {
+  width: 25px;
+  filter: invert(1) sepia(1) saturate(10) hue-rotate(120deg) brightness(0.8)
+    contrast(1);
+}
+
+.linkIcon > img:hover {
+  filter: invert(1) sepia(1) saturate(10) hue-rotate(120deg) brightness(1.5)
+    contrast(1);
+}
