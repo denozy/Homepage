@@ -4,6 +4,11 @@ import githubIcon from "../assets/github.png";
 import linkedinIcon from "../assets/linkedin.png";
 import emailIcon from "../assets/email.png";
 import resumeIcon from "../assets/file-document.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import js from "../assets/js.png";
+import react from "../assets/react.png";
+import typescript from "../assets/typescript.png";
 
 const Hero = () => {
   return (
@@ -54,60 +59,54 @@ const Hero = () => {
         <div>
           <h1>My Skills</h1>
         </div>
+        <br></br>
+
         <div className={styles.skillsContainer}>
-          <span className={styles.skill}>
-            HTML
+          <div className={styles.skill}>
+            <img src={html} />
             <span className={`${styles.tooltip} ${styles.structure}`}>
-              Structure
+              HTML
             </span>
-          </span>
+          </div>
 
-          <span className={styles.skill}>
-            CSS
-            <span className={`${styles.tooltip} ${styles.style}`}>Styles</span>
-          </span>
+          <div className={styles.skill}>
+            <img src={css} />
+            <span className={`${styles.tooltip} ${styles.style}`}>CSS</span>
+          </div>
 
-          <span className={styles.skill}>
-            Javascript
-            <span className={`${styles.tooltip} ${styles.backend}`}>
-              Functionality
+          <div className={styles.skill}>
+            <img src={js} />
+            <span className={`${styles.tooltip} ${styles.style}`}>
+              Javascript
             </span>
-          </span>
+          </div>
 
-          <span className={styles.skill}>
-            Typescript
-            <span className={`${styles.tooltip} ${styles.backend}`}>
-              Typed Functionality
-            </span>
-          </span>
+          <div className={styles.skill}>
+            <img src={react} />
+            <span className={`${styles.tooltip} ${styles.style}`}>React</span>
+          </div>
 
-          <span className={styles.skill}>
-            React
-            <span className={`${styles.tooltip} ${styles.frontend}`}>
-              Frontend
+          <div className={styles.skill}>
+            <img src={typescript} />
+            <span className={`${styles.tooltip} ${styles.style}`}>
+              Typescript
             </span>
-          </span>
+          </div>
 
-          <span className={styles.skill}>
-            Node.js
-            <span className={`${styles.tooltip} ${styles.backend}`}>
-              Backend
-            </span>
-          </span>
+          <div className={styles.skill}>
+            <img src={css} />
+            <span className={`${styles.tooltip} ${styles.style}`}>Node</span>
+          </div>
 
-          <span className={styles.skill}>
-            Express
-            <span className={`${styles.tooltip} ${styles.backend}`}>
-              Backend
-            </span>
-          </span>
+          <div className={styles.skill}>
+            <img src={css} />
+            <span className={`${styles.tooltip} ${styles.style}`}>Express</span>
+          </div>
 
-          <span className={styles.skill}>
-            Next.js
-            <span className={`${styles.tooltip} ${styles.fullStack}`}>
-              Full Stack
-            </span>
-          </span>
+          <div className={styles.skill}>
+            <img src={css} />
+            <span className={`${styles.tooltip} ${styles.style}`}>SQL</span>
+          </div>
         </div>
       </section>
     </div>

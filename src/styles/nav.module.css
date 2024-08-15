@@ -6,7 +6,7 @@ header {
   justify-content: center;
   gap: 10px;
   font-size: 1.5em;
-  background-color: var(--clr-primary-1);
+  background-color: var(--clr-primary-2);
 }
 
 .headerLinksContainer {

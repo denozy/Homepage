@@ -5,11 +5,11 @@
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: #212121;
-  --clr-primary-2: #323232;
+  --clr-primary-2: #2b706e;
   --clr-primary-3: #0d7377;
   --clr-primary-4: #14ffec;
   --clr-primary-5: #e0d4ba;
-  --clr-primary-6: #338588;
+  --clr-primary-6: #479597;
 
   --padding: 0.75rem 0;
   --margin: 0 15rem;
@@ -38,7 +38,7 @@ ul {
 }
 
 a {
-  color: white;
+  color: whitesmoke;
 }
 
 a:hover {
