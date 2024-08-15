@@ -1,7 +1,7 @@
-import githubIcon from "../assets/github.png";
-import linkedinIcon from "../assets/linkedin.png";
-import emailIcon from "../assets/email.png";
-import resumeIcon from "../assets/file-document.png";
+import githubIcon from "../assets/images/github.png";
+import linkedinIcon from "../assets/images/linkedin.png";
+import emailIcon from "../assets/images/email.png";
+import resumeIcon from "../assets/images/file-document.png";
 import styles from "../styles/footer.module.css";
 
 const Footer = () => {

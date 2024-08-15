@@ -1,5 +1,6 @@
 import styles from "../styles/projectsContainer.module.css";
 import ProjectCards from "./ProjectCards";
+import check from "../assets/images/matchem.png";
 
 const ProjectsContainer = () => {
   return (
@@ -8,7 +9,7 @@ const ProjectsContainer = () => {
         <h2>Projects</h2>
       </div>
       <div className={styles.articleContainer}>
-        <ProjectCards />
+        <ProjectCards pic={check} />
         <ProjectCards />
         <ProjectCards />
         <ProjectCards />

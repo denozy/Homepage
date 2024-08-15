@@ -1,12 +1,12 @@
 import styles from "../styles/projectsContainer.module.css";
-import coolFrog from "../assets/cool-frog.jpg";
-import githubIcon from "../assets/github.png";
-import open from "../assets/open-in-new.png";
+import coolFrog from "../assets/images/cool-frog.jpg";
+import githubIcon from "../assets/images/github.png";
+import open from "../assets/images/open-in-new.png";
 
-const ProjectCards = () => {
+const ProjectCards = ({ pic }) => {
   return (
     <article>
-      <img src={coolFrog} className={styles.articleHeader} alt="" />
+      <img src={pic ? pic : coolFrog} className={styles.articleHeader} alt="" />
       <div className={styles.articleText}>
         <div className={styles.articleImg}>
           <h4>Project name</h4>
