@@ -1,24 +1,25 @@
+import { NavLink } from "react-router-dom";
 import styles from "../styles/nav.module.css";
 const Nav = () => {
   return (
     <header>
       <nav className={styles.headerLinksContainer}>
         <div className={styles.navRoot}>
-          <a href="index.html">Nick DenBleyker</a>
+          <NavLink to="/">Nick DenBleyker</NavLink>
         </div>
         <div className={styles.navLinks}>
-          <a href="" className="about">
+          <NavLink to="/About" className="about">
             About
-          </a>
-          <a href="" className="blog">
+          </NavLink>
+          <NavLink to="/Blog" className="blog">
             Blog
-          </a>
-          <a href="" className="projects">
+          </NavLink>
+          <NavLink to="/Projects" className="projects">
             Projects
-          </a>
-          <a href="" className="contact">
+          </NavLink>
+          <NavLink to="/Contact" className="contact">
             Contact
-          </a>
+          </NavLink>
         </div>
       </nav>
     </header>
