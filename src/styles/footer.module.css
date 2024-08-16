@@ -1,6 +1,5 @@
 footer {
   background-color: var(--clr-primary-1);
-  padding: var(--padding);
   height: 20vh;
 }
 
@@ -9,7 +8,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: var(--padding);
-  height: auto;
+  height: 20vh;
 }
 
 .headerLinksContainer,
@@ -22,7 +21,6 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  padding: var(--padding);
 }
 
 .footerLeft {

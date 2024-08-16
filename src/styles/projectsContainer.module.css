@@ -4,6 +4,11 @@ main {
 
 .mainHeader {
   margin: var(--margin);
+  padding-top: 2rem;
+}
+
+.mainHeader > h3 {
+  font-size: 3rem;
 }
 
 article {
@@ -21,13 +26,12 @@ article {
 .articleContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: start;
+  justify-content: space-between;
   margin: var(--margin);
 }
 
 .projectPicture {
-  object-fit: inherit;
+  object-fit: cover;
 }
 
 .articleDetails {

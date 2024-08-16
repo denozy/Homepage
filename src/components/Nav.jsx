@@ -5,19 +5,21 @@ const Nav = () => {
     <header>
       <nav className={styles.headerLinksContainer}>
         <div className={styles.navRoot}>
-          <NavLink to="/">Nick DenBleyker</NavLink>
+          <NavLink to="/" className={styles.navLink}>
+            Nick DenBleyker
+          </NavLink>
         </div>
         <div className={styles.navLinks}>
-          <NavLink to="/About" className="about">
+          <NavLink to="/About" className={styles.navLink}>
             About
           </NavLink>
-          <NavLink to="/Blog" className="blog">
+          <NavLink to="/Blog" className={styles.navLink}>
             Blog
           </NavLink>
-          <NavLink to="/Projects" className="projects">
+          <NavLink to="/Projects" className={styles.navLink}>
             Projects
           </NavLink>
-          <NavLink to="/Contact" className="contact">
+          <NavLink to="/Contact" className={styles.navLink}>
             Contact
           </NavLink>
         </div>

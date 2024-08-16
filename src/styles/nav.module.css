@@ -22,5 +22,18 @@ header {
 
 .navLinks {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+}
+
+.navLink {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.navLink:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
 }

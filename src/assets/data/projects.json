@@ -28,6 +28,13 @@
     "image": "/images/nebula-background.jpg"
   },
   {
+    "title": "Dummy",
+    "github": "/",
+    "liveURL": "/",
+    "description": "Lorem ipsum and all that bullshit",
+    "image": "/images/nebula-background.jpg"
+  },
+  {
     "title": "Pokemon Match Em!",
     "github": "https://github.com/denozy/pokemon-memory-game",
     "liveURL": "https://denozy.github.io/pokemon-memory-game/",

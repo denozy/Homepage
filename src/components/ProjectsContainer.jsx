@@ -6,11 +6,11 @@ const ProjectsContainer = () => {
   return (
     <main>
       <div className={styles.mainHeader}>
-        <h2>Projects</h2>
+        <h3>Projects</h3>
       </div>
       <div className={styles.articleContainer}>
-        {projects.map((project) => (
-          <ProjectCards key={project.title} project={project} />
+        {projects.map((project, index) => (
+          <ProjectCards key={index} project={project} />
         ))}
       </div>
     </main>
