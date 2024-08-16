@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Games Up",
+    "github": "https://github.com/denozy/Shopping-Cart",
+    "liveURL": "https://denozy.github.io/Shopping-Cart/",
+    "description": "This is the description for the Games Up project.",
+    "image": "/images/gamesup_home.png"
+  },
+  {
+    "title": "Dummy",
+    "github": "/",
+    "liveURL": "/",
+    "description": "Lorem ipsum and all that bullshit",
+    "image": "/images/nebula-background.jpg"
+  },
+  {
+    "title": "Dummy",
+    "github": "/",
+    "liveURL": "/",
+    "description": "Lorem ipsum and all that bullshit",
+    "image": "/images/nebula-background.jpg"
+  },
+  {
+    "title": "Dummy",
+    "github": "/",
+    "liveURL": "/",
+    "description": "Lorem ipsum and all that bullshit",
+    "image": "/images/nebula-background.jpg"
+  },
+  {
+    "title": "Pokemon Match Em!",
+    "github": "https://github.com/denozy/pokemon-memory-game",
+    "liveURL": "https://denozy.github.io/pokemon-memory-game/",
+    "description": "Memory game using pokemon api, react states and useEffect hooks",
+    "image": "/images/matchem.png"
+  }
+]
