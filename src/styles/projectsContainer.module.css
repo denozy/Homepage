@@ -11,9 +11,11 @@ article {
   flex-direction: column;
   width: 25rem;
   height: auto;
-  border: black 3px solid;
+  border: black 2px solid;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--clr-primary-1);
+  margin: 20px 0;
 }
 
 .articleContainer {
@@ -24,15 +26,10 @@ article {
   margin: var(--margin);
 }
 
-.articleHeader {
-  display: flex;
-  justify-content: space-between;
+.projectPicture {
+  object-fit: inherit;
 }
 
-.articleText {
-  padding: var(--padding);
-}
-.articleImg {
-  width: 100%;
-  height: auto;
+.articleDetails {
+  padding: 10px;
 }
