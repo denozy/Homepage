@@ -1,26 +1,32 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import styles from "../styles/nav.module.css";
+
+import logo from "../assets/images/audiodidacts-logo.png";
 const Nav = () => {
+  const location = useLocation();
+  const stickyPaths = ["/Posts", "/Projects", "/About"];
+  const isSticky = stickyPaths.includes(location.pathname);
+
   return (
-    <header>
+    <header
+      className={isSticky ? `${styles.navbar} ${styles.sticky}` : styles.navbar}
+    >
       <nav className={styles.headerLinksContainer}>
         <div className={styles.navRoot}>
           <NavLink to="/" className={styles.navLink}>
+            <img src={logo} alt="Audiodidacts logo" className={styles.logo} />
             Nick DenBleyker
           </NavLink>
         </div>
         <div className={styles.navLinks}>
-          <NavLink to="/About" className={styles.navLink}>
-            About
-          </NavLink>
-          <NavLink to="/Blog" className={styles.navLink}>
-            Blog
+          <NavLink to="/Posts" className={styles.navLink}>
+            Posts
           </NavLink>
           <NavLink to="/Projects" className={styles.navLink}>
             Projects
           </NavLink>
-          <NavLink to="/Contact" className={styles.navLink}>
-            Contact
+          <NavLink to="/About" className={styles.navLink}>
+            About
           </NavLink>
         </div>
       </nav>

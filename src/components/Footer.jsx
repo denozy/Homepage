@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
 
-import githubIcon from "../assets/images/github.png";
-import linkedinIcon from "../assets/images/linkedin.png";
-import emailIcon from "../assets/images/email.png";
-import resumeIcon from "../assets/images/file-document.png";
+import AllLinks from "../components/AllLinks";
 import styles from "../styles/footer.module.css";
 
 const Footer = () => {
@@ -46,32 +43,7 @@ const Footer = () => {
         </div>
         <div className="footerRight">
           <h4>Get in touch</h4>
-          <div className="linkIcons">
-            <Link
-              to="https://github.com/denozy"
-              target="_blank"
-              className="linkIcon"
-            >
-              <img src={githubIcon} alt="github icon" />
-            </Link>
-            <Link
-              to="https://www.linkedin.com/in/nick-denbleyker-566a35291"
-              target="_blank"
-              className="linkIcon"
-            >
-              <img src={linkedinIcon} alt="LinkedIn icon" />
-            </Link>
-            <Link to="mailto:ndenbleyker@gmail.com" className="linkIcon">
-              <img src={emailIcon} alt="Email icon" />
-            </Link>
-            <Link
-              to="../Assets/Nicholas DenBleyker Resume-4.pdf"
-              target="_blank"
-              className="linkIcon"
-            >
-              <img src={resumeIcon} alt="Resume Icon" />
-            </Link>
-          </div>
+          <AllLinks />
         </div>
       </div>
     </footer>
