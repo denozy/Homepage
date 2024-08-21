@@ -1,5 +1,10 @@
 const AboutPage = () => {
-  return <div>AboutPage</div>;
+  return (
+    <div>
+      this page is going to contain information about me. This will serve as a
+      resume pretty much
+    </div>
+  );
 };
 
 export default AboutPage;

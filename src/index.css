@@ -116,7 +116,6 @@ a {
     gap: 10px;
   }
 }
-
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   :root {
     --margin: 0 5rem;

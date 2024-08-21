@@ -8,7 +8,7 @@ const Hero = () => {
     <div className={styles.hero}>
       <section className={styles.introduction}>
         <div>
-          <div className={styles.nameContainer}>
+          <heading className={styles.nameContainer}>
             <h1>
               Lifelong Learner, Problem Solver,
               <br />
@@ -17,7 +17,7 @@ const Hero = () => {
                 <Links />
               </div>
             </h1>
-          </div>
+          </heading>
         </div>
         <p className={styles.descriptionText}>
           I love learning new things, solving complex puzzles, and applying what
@@ -27,7 +27,9 @@ const Hero = () => {
 
       <section className={styles.skills}>
         <div>
-          <h2>My Skills</h2>
+          <heading>
+            <h2>My Skills</h2>
+          </heading>
           <MySkills />
         </div>
         <br></br>
