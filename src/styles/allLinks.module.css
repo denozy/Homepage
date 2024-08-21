@@ -1,21 +1,17 @@
 .linkIcons {
-  margin-left: 20px;
-}
-
-.linkIcons {
   text-decoration: none;
+  justify-content: flex-start;
   display: flex;
   gap: 0.5rem;
   flex-wrap: nowrap;
 }
 
 .linkIcon > img {
-  width: 50px;
-  filter: invert(1) sepia(1) saturate(10) hue-rotate(120deg) brightness(0.8)
-    contrast(1);
+  will-change: transform;
+  width: 40px;
+  filter: invert(100%);
 }
 
 .linkIcon > img:hover {
-  filter: invert(1) sepia(1) saturate(10) hue-rotate(120deg) brightness(1.5)
-    contrast(1);
+  transform: translateY(-3px);
 }

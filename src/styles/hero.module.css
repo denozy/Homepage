@@ -27,88 +27,10 @@ section {
 .introLinks {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .descriptionText {
   width: var(--wrap-width);
   font-size: var(--font-size);
-}
-
-.skillsContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.skillsTop {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.skillsBottom {
-  display: flex;
-  flex-direction: column;
-}
-
-.skill {
-  text-align: center;
-  font-size: var(--font-size);
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
-.skill > img {
-  width: 100px;
-}
-
-.skill > img:hover {
-  animation: wiggle 0.5s ease-in-out;
-}
-
-.skillsInProgress {
-  font-size: var(--font-size);
-}
-
-@keyframes wiggle {
-  0%,
-  100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-3deg);
-  }
-  50% {
-    transform: rotate(3deg);
-  }
-  75% {
-    transform: rotate(-3deg);
-  }
-}
-
-.skill .tooltip {
-  margin-top: 10px;
-  padding: 3px;
-  visibility: hidden;
-  border-radius: 5px;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.4s;
-}
-
-.skill:hover {
-  cursor: default;
-}
-
-.skill:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
-}
-
-.frontend:hover {
-  background-color: rgb(0, 0, 0);
-}
-
-.backend {
-  background-color: rgb(95, 20, 15);
 }

@@ -11,20 +11,34 @@ footer {
   height: 20vh;
 }
 
-.headerLinksContainer,
-a {
-  text-decoration: underline;
-  text-decoration-color: var(--clr-primary-3);
-}
-
-.footerLinksContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
 .footerLeft {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.footerCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerLinksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link {
+  border-radius: 5px;
+  padding: 5px 0;
+}
+.link:hover {
+  background-color: var(--clr-primary-3);
+}
+
+.footerRight {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
 }
