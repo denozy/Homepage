@@ -1,0 +1,36 @@
+.hero {
+  background-color: var(--clr-primary-1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-evenly;
+}
+
+section {
+  margin: var(--margin);
+}
+
+.introduction {
+  border-radius: 10px;
+  background-position: 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nameContainer {
+  line-height: 1;
+}
+
+.introLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.descriptionText {
+  width: var(--wrap-width);
+  font-size: var(--font-size);
+}

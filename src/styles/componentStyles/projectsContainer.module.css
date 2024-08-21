@@ -1,0 +1,63 @@
+main {
+  background-color: var(--clr-primary-2);
+  padding: 1rem 0 2rem 0;
+}
+
+.mainHeader {
+  margin: var(--margin);
+  padding: 1rem 0;
+}
+
+.mainHeader > h3 {
+  font-size: 3rem;
+}
+
+.articleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: var(--margin);
+  gap: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  border: black 2px solid;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--clr-primary-1);
+  overflow: hidden;
+}
+
+.projectPicture {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.articleDetails {
+  padding: 10px;
+}
+
+.linkIcons,
+a {
+  text-decoration: none;
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: nowrap;
+}
+
+.linkIcon > img {
+  will-change: transform;
+  width: 25px;
+  filter: invert(1);
+}
+
+.linkIcon > img:hover {
+  transform: translateY(-3px);
+}

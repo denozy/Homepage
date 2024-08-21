@@ -1,0 +1,17 @@
+.linkIcons {
+  text-decoration: none;
+  justify-content: flex-start;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+.linkIcon > img {
+  will-change: transform;
+  width: 40px;
+  filter: invert(100%);
+}
+
+.linkIcon > img:hover {
+  transform: translateY(-3px);
+}

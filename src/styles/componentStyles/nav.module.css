@@ -1,0 +1,57 @@
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.5em;
+  background-color: var(--clr-primary-2);
+}
+
+.rootLink {
+  font-size: 2rem;
+  display: flex;
+  gap: 20px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.headerLinksContainer {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--margin);
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+  border-radius: 50%;
+}
+.navLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.rootLink,
+.navLink {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.navLink:hover {
+  text-decoration: underline wavy var(--clr-primary-3) 0.2rem;
+}
+
+.active {
+  text-decoration: underline wavy var(--clr-primary-3) 0.2rem;
+}
