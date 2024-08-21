@@ -9,6 +9,12 @@
   background-color: var(--clr-primary-2);
 }
 
+.rootLink {
+  font-size: 2rem;
+  display: flex;
+  gap: 20px;
+}
+
 .sticky {
   position: sticky;
   top: 0;
@@ -24,7 +30,8 @@
 }
 
 .logo {
-  width: 50px;
+  width: 75px;
+  height: auto;
   border-radius: 50%;
 }
 .navLinks {
