@@ -6,16 +6,17 @@
   /* dark shades of primary color*/
   --clr-primary-1: #1e3252;
   --clr-primary-2: #2d3136;
-  --clr-primary-3: #a24d4b;
-  --clr-primary-4: #1e1428;
-  --clr-primary-5: #b6789e;
-  --clr-primary-6: #5f64a4;
-  --clr-primary-7: #7895cd;
-  --clr-primary-8: #1e1428;
+  --clr-primary-3: #f7df1e;
+  --clr-primary-4: #a24d4b;
+  --clr-primary-5: #1e1428;
+  --clr-primary-6: #b6789e;
+  --clr-primary-7: #5f64a4;
+  --clr-primary-8: #7895cd;
+  --clr-primary-9: #1e1428;
 
   --padding: 1.5rem 0;
   --margin: 0 20rem;
-  --font-size: 1.5rem;
+  --font-size: 1.75rem;
   --wrap-width: 40vw;
 }
 
@@ -39,7 +40,19 @@ body {
 
 .outletContainer {
   min-height: 100vh;
-  background-color: var(--clr-primary-3);
+  background-image: linear-gradient(
+    0deg,
+    hsl(217deg 46% 22%) 0%,
+    hsl(216deg 43% 22%) 1%,
+    hsl(216deg 40% 21%) 3%,
+    hsl(215deg 36% 21%) 9%,
+    hsl(215deg 32% 21%) 53%,
+    hsl(215deg 27% 20%) 89%,
+    hsl(214deg 23% 20%) 96%,
+    hsl(214deg 18% 20%) 99%,
+    hsl(214deg 14% 20%) 100%,
+    hsl(213deg 9% 19%) 100%
+  );
 }
 
 ul {
@@ -48,10 +61,6 @@ ul {
 
 a {
   color: whitesmoke;
-}
-
-a:hover {
-  color: var(--clr-primary-3);
 }
 
 @media screen and (min-width: 800px) {
@@ -73,24 +82,6 @@ a:hover {
 }
 
 /* global style for link icons */
-.linkIcons,
-a {
-  text-decoration: none;
-  display: flex;
-  gap: 0.35rem;
-  flex-wrap: nowrap;
-}
-
-.linkIcon > img {
-  width: 25px;
-  filter: invert(1) sepia(1) saturate(10) hue-rotate(120deg) brightness(0.8)
-    contrast(1);
-}
-
-.linkIcon > img:hover {
-  filter: invert(1) sepia(1) saturate(10) hue-rotate(120deg) brightness(1.5)
-    contrast(1);
-}
 
 @media screen and (max-width: 900px) {
   :root {

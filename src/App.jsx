@@ -8,7 +8,7 @@ import {
 import MainLayout from "./layouts/MainLayout";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import BlogPage from "./pages/BlogPage";
+import PostsPage from "./pages/PostsPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
@@ -17,7 +17,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
-        <Route path="Posts" element={<BlogPage />} />
+        <Route path="Posts" element={<PostsPage />} />
         <Route path="Projects" element={<ProjectsPage />} />
         <Route path="About" element={<AboutPage />} />
         <Route path="*" element={<NotFoundPage />} />
