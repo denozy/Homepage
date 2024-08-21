@@ -35,15 +35,15 @@ const MySkills = () => {
           </div>
 
           <div className={styles.skill}>
-            <img src={react} />
-            <span className={`${styles.tooltip} ${styles.style}`}>React</span>
-          </div>
-
-          <div className={styles.skill}>
             <img src={typescript} />
             <span className={`${styles.tooltip} ${styles.style}`}>
               Typescript
             </span>
+          </div>
+
+          <div className={styles.skill}>
+            <img src={react} />
+            <span className={`${styles.tooltip} ${styles.style}`}>React</span>
           </div>
 
           <div className={styles.skill}>
