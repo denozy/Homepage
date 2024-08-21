@@ -19,10 +19,10 @@ const Hero = () => {
             </h1>
           </div>
         </div>
-        <h4 className={styles.descriptionText}>
+        <p className={styles.descriptionText}>
           I love learning new things, solving complex puzzles, and applying what
           I know to improve the world around me.
-        </h4>
+        </p>
       </section>
 
       <section className={styles.skills}>

@@ -63,7 +63,7 @@ const MySkills = () => {
             <h2>Skills in Progress</h2>
           </div>
           <br />
-          <div className={styles.skillsInProgress}>Express</div>
+          <div className={styles.skillsInProgress}>Express, Python, DSA</div>
         </div>
       </div>
       {/* skills end */}
