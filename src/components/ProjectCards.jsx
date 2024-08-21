@@ -15,15 +15,15 @@ const ProjectCards = ({ project }) => {
       />
       <div className={styles.articleDetails}>
         <h4>{project.title}</h4>
-        <div className="linkIcons">
-          <a href={project.github} target="_blank" className="linkIcon">
+        <div className={styles.linkIcons}>
+          <a href={project.github} target="_blank" className={styles.linkIcon}>
             <img src={githubIcon} alt="github icon" />
           </a>
-          <a href={project.liveURL} target="_blank" className="linkIcon">
-            <img src={open} alt="open-in-new" />
+          <a href={project.liveURL} target="_blank" className={styles.linkIcon}>
+            <img src={open} alt="open in new window" />
           </a>
         </div>
-        <p className="projectText">{project.description}</p>
+        <p className={styles.projectText}>{project.description}</p>
       </div>
     </article>
   );

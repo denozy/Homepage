@@ -25,25 +25,24 @@ const Footer = () => {
         </div>
 
         <div className={styles.footerCenter}>
-          <h4>Links</h4>
-          <div className={styles.foorterLinksContainer}>
-            <Link to="/About">
-              <h4>About</h4>
+          Pages
+          <div className={styles.footerLinksContainer}>
+            <Link className={styles.link} to="/Posts">
+              Posts
             </Link>
-            <Link to="/Blog">
-              <h4>Blog</h4>
+            <Link className={styles.link} to="/Projects">
+              Projects
             </Link>
-            <Link to="/Projects">
-              <h4>Projects</h4>
-            </Link>
-            <Link to="/Contact">
-              <h4>Contact</h4>
+            <Link className={styles.link} to="/About">
+              About
             </Link>
           </div>
         </div>
-        <div className="footerRight">
-          <h4>Get in touch</h4>
-          <AllLinks />
+        <div className={styles.footerRight}>
+          <div>Get in touch</div>
+          <div>
+            <AllLinks />
+          </div>
         </div>
       </div>
     </footer>
