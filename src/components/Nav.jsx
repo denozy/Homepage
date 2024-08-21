@@ -1,5 +1,5 @@
 import { NavLink, useLocation } from "react-router-dom";
-import styles from "../styles/nav.module.css";
+import styles from "../styles/componentStyles/nav.module.css";
 
 import logo from "../assets/images/audiodidacts-logo.png";
 const Nav = () => {

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import styles from "../styles/projectsContainer.module.css";
+import styles from "../styles/componentStyles/projectsContainer.module.css";
 import coolFrog from "../assets/images/cool-frog.jpg";
 import githubIcon from "../assets/images/github.png";
 import open from "../assets/images/open-in-new.png";

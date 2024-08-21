@@ -1,4 +1,4 @@
-import styles from "../styles/hero.module.css";
+import styles from "../styles/componentStyles/hero.module.css";
 
 import Links from "./AllLinks";
 import MySkills from "./MySkills";
@@ -8,7 +8,7 @@ const Hero = () => {
     <div className={styles.hero}>
       <section className={styles.introduction}>
         <div>
-          <heading className={styles.nameContainer}>
+          <header className={styles.nameContainer}>
             <h1>
               Lifelong Learner, Problem Solver,
               <br />
@@ -17,7 +17,7 @@ const Hero = () => {
                 <Links />
               </div>
             </h1>
-          </heading>
+          </header>
         </div>
         <p className={styles.descriptionText}>
           I love learning new things, solving complex puzzles, and applying what
@@ -27,9 +27,9 @@ const Hero = () => {
 
       <section className={styles.skills}>
         <div>
-          <heading>
+          <header>
             <h2>My Skills</h2>
-          </heading>
+          </header>
           <MySkills />
         </div>
         <br></br>

@@ -1,4 +1,4 @@
-import styles from "../styles/projectsContainer.module.css";
+import styles from "../styles/componentStyles/projectsContainer.module.css";
 import ProjectCards from "./ProjectCards";
 import projects from "../assets/data/projects.json";
 

@@ -1,3 +1,5 @@
+import styles from "../styles/pageStyles/aboutPage.module.css";
+
 const AboutPage = () => {
   return (
     <div>
