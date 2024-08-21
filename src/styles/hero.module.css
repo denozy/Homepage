@@ -24,17 +24,13 @@ section {
   line-height: 1;
 }
 
-/* .aboutMeContainer {
-  margin: var(--margin);
-  padding: var(--padding);
-  height: 50vh;
+.introLinks {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
+  align-items: center;
+}
 
 .descriptionText {
-  width: 30vw;
+  width: var(--wrap-width);
   font-size: var(--font-size);
 }
 
@@ -46,11 +42,13 @@ section {
 
 .skillsTop {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .skillsBottom {
   display: flex;
+  flex-direction: column;
 }
 
 .skill {
@@ -66,6 +64,10 @@ section {
 
 .skill > img:hover {
   animation: wiggle 0.5s ease-in-out;
+}
+
+.skillsInProgress {
+  font-size: var(--font-size);
 }
 
 @keyframes wiggle {
@@ -109,24 +111,4 @@ section {
 
 .backend {
   background-color: rgb(95, 20, 15);
-}
-
-/* link styles */
-.linkIcons,
-a {
-  text-decoration: none;
-  display: flex;
-  gap: 0.35rem;
-  flex-wrap: nowrap;
-}
-
-.linkIcon > img {
-  width: 25px;
-  filter: invert(1) sepia(1) saturate(10) hue-rotate(120deg) brightness(0.8)
-    contrast(1);
-}
-
-.linkIcon > img:hover {
-  filter: invert(1) sepia(1) saturate(10) hue-rotate(120deg) brightness(1.5)
-    contrast(1);
 }
