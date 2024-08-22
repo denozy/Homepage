@@ -17,7 +17,7 @@ main {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: var(--margin);
-  gap: 20px;
+  gap: 3rem;
 }
 
 .projectCard {
