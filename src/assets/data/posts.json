@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "The Odin Project Experience",
+    "author": "Nick DenBleyker",
+    "date": "2024-06-20",
+    "content": "content go here content go here",
+    "excerpt": "My experience learning web development through The Odin Project",
+    "tags": ["React", "JavaScript", "Web Development"],
+    "category": "Programming",
+    "featuredImage": "https://example.com/path-to-image.jpg",
+    "slug": "the-top-experience"
+  },
+  {
+    "id": "2",
+    "title": "AI hand holding and Learning to Code",
+    "author": "Nick DenBleyker",
+    "date": "2024-06-20",
+    "content": "content go here",
+    "excerpt": "Dummy",
+    "tags": ["React", "JavaScript", "Web Development"],
+    "category": "Programming",
+    "featuredImage": "https://example.com/path-to-image.jpg",
+    "slug": "ai-hand-holding-and-learning-to-code"
+  },
+  {
+    "id": "3",
+    "title": "One Step And Then Another, Gets You Where You're Going",
+    "author": "Nick DenBleyker",
+    "date": "2024-06-20",
+    "content": "content go here",
+    "excerpt": "Dummy",
+    "tags": ["React", "JavaScript", "Web Development"],
+    "category": "Programming",
+    "featuredImage": "https://example.com/path-to-image.jpg",
+    "slug": "my-top-experience"
+  }
+]

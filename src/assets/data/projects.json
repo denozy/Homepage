@@ -1,44 +1,58 @@
 [
   {
+    "id": "1",
     "title": "Games Up",
     "github": "https://github.com/denozy/Shopping-Cart",
     "liveURL": "https://denozy.github.io/Shopping-Cart/",
     "description": "This is the description for the Games Up project.",
-    "image": "/images/gamin.png"
+    "image": "/images/gamin.png",
+    "moreImages": ["/images/gamin.png", "/images/gamin.png"],
+    "slug": "games-up"
   },
   {
-    "title": "Dummy",
-    "github": "/",
-    "liveURL": "/",
-    "description": "Lorem ipsum and all that",
-    "image": "/images/nebula-background.jpg"
-  },
-  {
-    "title": "Dummy",
-    "github": "/",
-    "liveURL": "/",
-    "description": "Lorem ipsum and all that",
-    "image": "/images/nebula-background.jpg"
-  },
-  {
-    "title": "Dummy",
-    "github": "/",
-    "liveURL": "/",
-    "description": "Lorem ipsum and all that",
-    "image": "/images/nebula-background.jpg"
-  },
-  {
-    "title": "Dummy",
-    "github": "/",
-    "liveURL": "/",
-    "description": "Lorem ipsum and all that",
-    "image": "/images/nebula-background.jpg"
-  },
-  {
+    "id": "2",
     "title": "Pokemon Match Em!",
     "github": "https://github.com/denozy/pokemon-memory-game",
     "liveURL": "https://denozy.github.io/pokemon-memory-game/",
     "description": "Memory game using pokemon api, react states and useEffect hooks",
-    "image": "/images/pokemon_matchem.png"
+    "image": "/images/pokemon_matchem.png",
+    "moreImages": ["/images/gamin.png", "/images/gamin.png"],
+    "slug": "pokemon-match-em"
+  },
+  {
+    "id": "3",
+    "title": "Dummy",
+    "github": "/",
+    "liveURL": "/",
+    "description": "Lorem ipsum and all that",
+    "image": "/images/nebula-background.jpg",
+    "slug": "dummy"
+  },
+  {
+    "id": "4",
+    "title": "Dummy",
+    "github": "/",
+    "liveURL": "/",
+    "description": "Lorem ipsum and all that",
+    "image": "/images/nebula-background.jpg",
+    "slug": "dummy"
+  },
+  {
+    "id": "5",
+    "title": "Dummy",
+    "github": "/",
+    "liveURL": "/",
+    "description": "Lorem ipsum and all that",
+    "image": "/images/nebula-background.jpg",
+    "slug": "dummy"
+  },
+  {
+    "id": "6",
+    "title": "Dummy",
+    "github": "/",
+    "liveURL": "/",
+    "description": "Lorem ipsum and all that",
+    "image": "/images/nebula-background.jpg",
+    "slug": "dummy"
   }
 ]
