@@ -1,0 +1,17 @@
+.postWrapper {
+  margin: var(--margin);
+  padding: var(--page-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.content {
+  font-size: var(--font-size);
+}
