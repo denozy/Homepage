@@ -25,13 +25,6 @@ const Links = () => {
         <a href="mailto:ndenbleyker@gmail.com" className={styles.linkIcon}>
           <img src={emailIcon} alt="Email icon" />
         </a>
-        {/* <a
-          href="../Assets/Nicholas DenBleyker Resume-4.pdf"
-          target="_blank"
-          className={styles.linkIcon}
-        >
-          <img src={resumeIcon} alt="Resume Icon" />
-        </a> */}
       </div>
       {/* links end here */}
     </>
