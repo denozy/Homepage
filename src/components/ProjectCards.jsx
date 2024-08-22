@@ -7,13 +7,13 @@ import open from "../assets/images/open-in-new.png";
 
 const ProjectCards = ({ project }) => {
   return (
-    <article>
+    <article className={styles.projectCard}>
       <img
         src={project.image ? project.image : coolFrog}
         className={styles.projectPicture}
         alt=""
       />
-      <div className={styles.articleDetails}>
+      <div className={styles.projectDetails}>
         <h4>{project.title}</h4>
         <div className={styles.linkIcons}>
           <a href={project.github} target="_blank" className={styles.linkIcon}>

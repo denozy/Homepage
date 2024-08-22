@@ -1,0 +1,42 @@
+.resumeContainer {
+  margin: var(--margin);
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.resumeRedirect {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+}
+
+.boldText {
+  margin: 0 5px;
+}
+.resumeHeader {
+}
+
+.resumeBlock {
+}
+
+.resumeText {
+  font-size: 1.5em;
+}
+.jobList {
+}
+.jobItem {
+  list-style-type: none;
+}
+
+.resumeIcon {
+  width: 40px;
+  height: auto;
+  align-self: center;
+  filter: invert(1);
+  margin-left: 10px;
+}
+
+.resumeIcon:hover {
+  transform: scale(1.2);
+}
