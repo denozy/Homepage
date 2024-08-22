@@ -5,7 +5,7 @@ import logo from "../assets/images/audiodidacts-logo.png";
 const Nav = () => {
   const location = useLocation();
   const Paths = ["/Posts", "/Projects", "/About"];
-  const isActive = Paths.includes(location.pathname);
+  const isActive = Paths.some((path) => location.pathname.startsWith(path));
 
   return (
     <header
