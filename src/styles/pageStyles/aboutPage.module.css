@@ -1,27 +1,40 @@
 .resumeContainer {
   margin: var(--margin);
   display: flex;
-  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: var(--page-padding);
+}
+
+.resumeWrapper {
+  max-width: 55rem;
+  width: 100%;
   gap: 3em;
+  display: flex;
+  flex-direction: column;
 }
 
 .resumeRedirect {
   display: flex;
-  align-items: center;
-  font-size: 2em;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .boldText {
   margin: 0 5px;
 }
 .resumeHeader {
+  text-decoration: underline;
+  padding: 10px 0;
 }
 
 .resumeBlock {
+  line-height: 1.8rem;
 }
 
 .resumeText {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .jobList {
 }
@@ -39,4 +52,25 @@
 
 .resumeIcon:hover {
   transform: scale(1.2);
+}
+
+.certificationItem {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  white-space: normal; /* Allow wrapping */
+  word-wrap: break-word;
+}
+
+.certificationItem a,
+.certificationItem {
+  display: inline;
+  flex-wrap: unset;
+}
+.certificationItem a {
+  text-decoration: underline;
+}
+.certificationItem a:hover {
+  color: rgba(245, 245, 245, 0.733);
+  cursor: pointer;
 }

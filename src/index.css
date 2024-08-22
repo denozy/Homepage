@@ -14,6 +14,7 @@
   --clr-primary-8: #7895cd;
   --clr-primary-9: #1e1428;
 
+  --page-padding: 5rem 0;
   --padding: 1.5rem 0;
   --margin: 0 20rem;
   --font-size: 1.75rem;
@@ -41,16 +42,17 @@ body {
 .outletContainer {
   min-height: 100vh;
   background-image: linear-gradient(
-    0deg,
-    hsl(217deg 46% 22%) 0%,
-    hsl(216deg 43% 22%) 1%,
-    hsl(216deg 40% 21%) 3%,
-    hsl(215deg 36% 21%) 9%,
-    hsl(215deg 32% 21%) 53%,
-    hsl(215deg 27% 20%) 89%,
-    hsl(214deg 23% 20%) 96%,
-    hsl(214deg 18% 20%) 99%,
-    hsl(214deg 14% 20%) 100%,
+    180deg,
+    hsl(213deg 9% 19%) 0%,
+    hsl(218deg 16% 20%) 20%,
+    hsl(219deg 23% 21%) 29%,
+    hsl(219deg 30% 21%) 36%,
+    hsl(218deg 38% 22%) 43%,
+    hsl(217deg 46% 22%) 50%,
+    hsl(218deg 38% 22%) 57%,
+    hsl(219deg 30% 21%) 64%,
+    hsl(219deg 23% 21%) 71%,
+    hsl(218deg 16% 20%) 80%,
     hsl(213deg 9% 19%) 100%
   );
 }
@@ -83,7 +85,7 @@ a {
 
 /* global style for link icons */
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   :root {
     --margin: 0 2rem;
     --padding: 0.5rem;
@@ -131,4 +133,4 @@ a {
   .article {
     width: 100%;
   }
-}
+} */

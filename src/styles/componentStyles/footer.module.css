@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--clr-primary-1);
+  background-color: var(--clr-primary-2);
   height: 20vh;
 }
 
@@ -32,9 +32,6 @@ footer {
 .link {
   border-radius: 5px;
   padding: 5px 0;
-}
-.link:hover {
-  background-color: var(--clr-primary-3);
 }
 
 .footerRight {
