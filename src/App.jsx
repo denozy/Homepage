@@ -11,7 +11,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
-    <Router basename="/homepage">
+    <Router>
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
