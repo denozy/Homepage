@@ -17,7 +17,7 @@ const AboutPage = () => {
             <strong className={styles.boldText}> check it out here </strong>
             <FaArrowRight />
             <a
-              href="/resume_Nick_DenBleyker.pdf"
+              href="/homepage/resume_Nick_DenBleyker.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -37,32 +37,11 @@ const AboutPage = () => {
         </section>
         <section className={styles.resumeBlock}>
           <h2 className={styles.resumeHeader}>Studies</h2>
-          <p className={styles.resumeText}>
-            I graduated college with a degree in Exercise Science. I felt that a
-            degree in the health field would be a great way to help others.
-            However, over time I found that the day to day of the work life was
-            not for me, and I began seeking alternatives. <br />
-            <br />I fell in love with audiobooks, so I taught myself how to
-            produce audiobooks. To me it just seemed the natural conclusion. If
-            I find something interesting, why wouldn&apos;t I invest time into
-            learning how that thing worked. It was that same mindset that led me
-            to web development, which I&apos;ve found to be far and away my
-            favorite never ending rabbit hole of learning.
-          </p>
+          <p className={styles.resumeText}></p>
         </section>
         <section className={styles.resumeBlock}>
           <h2 className={styles.resumeHeader}>Work Life</h2>
-          <p className={styles.resumeText}>
-            Heres a snapshot of my work life throughout my 20s. <br />
-            <br /> I graduated college, got a job in health program management,
-            found the work life to be wanting, so I transitioned to tech sales,
-            that seemed fun at the outset, but I found certain aspects of sales
-            to be absolutely gut wrenchingly horrible. Sorry sales. The big
-            one-nine hit, and my team got laid off. So I went back to my roots
-            and worked as a personal trainer. Along the way, I taught myself to
-            produce audiobooks, started freelancing as a producer, and learned
-            web development.
-          </p>
+          <p className={styles.resumeText}></p>
         </section>
         <section className={styles.resumeBlock}>
           <h2 className={styles.resumeHeader}>Courses||Certifications</h2>

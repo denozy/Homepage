@@ -5,7 +5,7 @@
     "github": "https://github.com/denozy/Shopping-Cart",
     "liveURL": "https://denozy.github.io/Shopping-Cart/",
     "description": "This is the description for the Games Up project.",
-    "image": "/images/gamin.png",
+    "image": "/homepage/images/gamin.png",
     "moreImages": ["/images/gamin.png", "/images/gamin.png"],
     "slug": "games-up"
   },
@@ -15,7 +15,7 @@
     "github": "https://github.com/denozy/pokemon-memory-game",
     "liveURL": "https://denozy.github.io/pokemon-memory-game/",
     "description": "Memory game using pokemon api, react states and useEffect hooks",
-    "image": "/images/pokemon_matchem.png",
+    "image": "/homepage/images/pokemon_matchem.png",
     "moreImages": ["/images/gamin.png", "/images/gamin.png"],
     "slug": "pokemon-match-em"
   },
@@ -25,7 +25,7 @@
     "github": "/",
     "liveURL": "/",
     "description": "Lorem ipsum and all that",
-    "image": "/images/nebula-background.jpg",
+    "image": "/homepage/images/nebula-background.jpg",
     "slug": "dummy"
   },
   {
@@ -34,7 +34,7 @@
     "github": "/",
     "liveURL": "/",
     "description": "Lorem ipsum and all that",
-    "image": "/images/nebula-background.jpg",
+    "image": "/homepage/images/nebula-background.jpg",
     "slug": "dummy"
   },
   {
@@ -43,7 +43,7 @@
     "github": "/",
     "liveURL": "/",
     "description": "Lorem ipsum and all that",
-    "image": "/images/nebula-background.jpg",
+    "image": "/homepage/images/nebula-background.jpg",
     "slug": "dummy"
   },
   {
@@ -52,7 +52,7 @@
     "github": "/",
     "liveURL": "/",
     "description": "Lorem ipsum and all that",
-    "image": "/images/nebula-background.jpg",
+    "image": "/homepage/images/nebula-background.jpg",
     "slug": "dummy"
   }
 ]
