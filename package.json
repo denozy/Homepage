@@ -2,7 +2,7 @@
   "name": "bestpage",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://denozy.github.io/Homepage/"
+  "homepage": "https://denozy.github.io/Homepage/",
   "type": "module",
   "scripts": {
     "dev": "vite",
