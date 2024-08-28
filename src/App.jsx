@@ -24,6 +24,7 @@ const App = () => {
         <Route path="Projects" element={<ProjectsPage />} />
         <Route path="Projects/:slug" element={<SingleProjectPage />} />
         <Route path="About" element={<AboutPage />} />
+        <Route path="homepage" element={<MainLayout />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     )
