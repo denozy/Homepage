@@ -10,10 +10,39 @@ const SinglePostPage = () => {
       <div className={styles.postWrapper}>
         <header className={styles.heading}>
           <h1 className={styles.title}>{post.title}</h1>
+          <div className={styles.postDetails}>
+            By {post.author} on {new Date(post.date).toLocaleDateString()}
+          </div>
         </header>
-        <section>
-          <p className={styles.content}>{post.content}</p>
-          <time>{post.date}</time>
+
+        <section className={styles.postBody}>
+          {post.content.map((section, index) => {
+            switch (section.type) {
+              case "paragraph":
+                return (
+                  <p key={index} className={styles.content}>
+                    {section.text}
+                  </p>
+                );
+              case "image":
+                return (
+                  <img
+                    key={index}
+                    src={section.src}
+                    alt={section.alt}
+                    className={styles.image}
+                  />
+                );
+              case "header":
+                return (
+                  <h2 key={index} className={styles.header}>
+                    {section.text}
+                  </h2>
+                );
+              default:
+                return null;
+            }
+          })}
         </section>
       </div>
     </article>
