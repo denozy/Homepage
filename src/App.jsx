@@ -1,9 +1,4 @@
-import {
-  Route,
-  createBrowserRouter,
-  createRoutesFromElements,
-  RouterProvider,
-} from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 import MainLayout from "./layouts/MainLayout";
 import HomePage from "./pages/HomePage";
@@ -14,23 +9,22 @@ import ProjectsPage from "./pages/ProjectsPage";
 import SingleProjectPage from "./pages/SingleProjectPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
-const App = () => {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<MainLayout />}>
-        <Route index element={<HomePage />} />
-        <Route path="Posts" element={<PostsPage />} />
-        <Route path="Posts/:slug" element={<SinglePostPage />} />
-        <Route path="Projects" element={<ProjectsPage />} />
-        <Route path="Projects/:slug" element={<SingleProjectPage />} />
-        <Route path="About" element={<AboutPage />} />
-        <Route path="homepage" element={<MainLayout />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Route>
-    )
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="Posts" element={<PostsPage />} />
+          <Route path="Posts/:slug" element={<SinglePostPage />} />
+          <Route path="Projects" element={<ProjectsPage />} />
+          <Route path="Projects/:slug" element={<SingleProjectPage />} />
+          <Route path="About" element={<AboutPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+    </Router>
   );
-
-  return <RouterProvider router={router} />;
-};
+}
 
 export default App;
