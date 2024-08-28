@@ -11,11 +11,10 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/homepage">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="homepage" element={<HomePage />} />
           <Route path="Posts" element={<PostsPage />} />
           <Route path="Posts/:slug" element={<SinglePostPage />} />
           <Route path="Projects" element={<ProjectsPage />} />
