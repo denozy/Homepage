@@ -2,8 +2,8 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 import styles from "../styles/componentStyles/projectsContainer.module.css";
-import coolFrog from "../assets/images/cool-frog.jpg";
 import githubIcon from "../assets/images/github.png";
+import backupImage from "../assets/images/audiodidacts-logo.png";
 import open from "../assets/images/open-in-new.png";
 
 const ProjectCards = ({ project }) => {
@@ -12,7 +12,7 @@ const ProjectCards = ({ project }) => {
       <Link to={`/Projects/${project.slug}`}>
         {" "}
         <img
-          src={project.image ? project.image : coolFrog}
+          src={project.image ? project.image : backupImage}
           className={styles.projectPicture}
           alt=""
         />
