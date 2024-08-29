@@ -4,7 +4,7 @@
     "title": "Games Up",
     "github": "https://github.com/denozy/Shopping-Cart",
     "liveURL": "https://denozy.github.io/Shopping-Cart/",
-    "description": "This is the description for the Games Up project.",
+    "description": "Mock games store using react states and useEffect hooks",
     "image": "/homepage/images/gamin.png",
     "moreImages": ["/images/gamin.png", "/images/gamin.png"],
     "slug": "games-up"
