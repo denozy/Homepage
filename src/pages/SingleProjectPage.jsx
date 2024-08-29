@@ -12,8 +12,18 @@ const SingleProjectPage = () => {
           <h1>{project.title}</h1>
         </header>
         <section>
-          <p className={styles.description}>{project.description}</p>
+          <p className={styles.content}>{project.content}</p>
         </section>
+        <div className={styles.projectImagesContainer}>
+          {project.moreImages.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={project.title}
+              className={styles.projectImage}
+            />
+          ))}
+        </div>
       </div>
     </article>
   );
