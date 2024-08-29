@@ -3,6 +3,5 @@
   padding: var(--page-padding);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
+  justify-content: space-around;
 }

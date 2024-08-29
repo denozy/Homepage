@@ -14,7 +14,8 @@
   border: black 2px solid;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: var(--clr-primary-1);
+  background-color: var(--clr-primary-4);
+  border-radius: 5px;
   padding: 2rem;
   flex-grow: 1;
 }
