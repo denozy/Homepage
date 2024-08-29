@@ -18,14 +18,40 @@ const ProjectCards = ({ project }) => {
         />
       </Link>
       <div className={styles.projectDetails}>
-        <h4>{project.title}</h4>
-        <div className={styles.linkIcons}>
-          <a href={project.github} target="_blank" className={styles.linkIcon}>
-            <img src={githubIcon} alt="github icon" />
-          </a>
-          <a href={project.liveURL} target="_blank" className={styles.linkIcon}>
-            <img src={open} alt="open in new window" />
-          </a>
+        <div>
+          <h4>{project.title}</h4>
+          <div className={styles.linkIcons}>
+            {/* conditionally display github icon */}
+            {project.github ? (
+              <div className={styles.linkIcon}>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  className={styles.linkIcon}
+                >
+                  <img src={githubIcon} alt="github icon" />
+                </a>
+                <span className={styles.tooltip}>Open Github</span>
+              </div>
+            ) : (
+              ""
+            )}
+            {/* conditionally display liveurl icon */}
+            {project.liveURL ? (
+              <div className={styles.linkIcon}>
+                <a
+                  href={project.liveURL}
+                  target="_blank"
+                  className={styles.linkIcon}
+                >
+                  <img src={open} alt="open in new window" />
+                </a>
+                <span className={styles.tooltip}>Open Project</span>
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
         </div>
         <p className={styles.projectText}>{project.description}</p>
       </div>
