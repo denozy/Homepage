@@ -1,8 +1,14 @@
 import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 import posts from "../assets/data/posts.json";
 import styles from "../styles/pageStyles/singlePostPage.module.css";
 
 const SinglePostPage = () => {
+  //scroll to top of webpage when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { slug } = useParams();
   const post = posts.find((post) => post.slug === slug);
   return (

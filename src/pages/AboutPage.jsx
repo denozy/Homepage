@@ -47,8 +47,9 @@ const AboutPage = () => {
           <h2 className={styles.resumeHeader}>Courses||Certifications</h2>
           <ul className={`${styles.certificationList} ${styles.resumeText}`}>
             <li className={styles.certificationItem}>
-              The Odin Project - check out this <Link to="/">post</Link> about
-              my experience learning web dev through TOP!
+              The Odin Project - check out this{" "}
+              <Link to="/Posts/the-top-experience">post</Link> about my
+              experience learning web dev through TOP!
             </li>
 
             <li className={styles.certificationItem}>The Odin Project</li>
