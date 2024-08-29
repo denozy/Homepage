@@ -17,43 +17,37 @@ const MySkills = () => {
         <div className={styles.skillsTop}>
           <div className={styles.skill}>
             <img src={html} />
-            <span className={`${styles.tooltip} ${styles.structure}`}>
-              HTML
-            </span>
+            <span className={styles.tooltip}>HTML</span>
           </div>
 
           <div className={styles.skill}>
             <img src={css} />
-            <span className={`${styles.tooltip} ${styles.style}`}>CSS</span>
+            <span className={styles.tooltip}>CSS</span>
           </div>
 
           <div className={styles.skill}>
             <img src={js} />
-            <span className={`${styles.tooltip} ${styles.style}`}>
-              Javascript
-            </span>
+            <span className={styles.tooltip}>Javascript</span>
           </div>
 
           <div className={styles.skill}>
             <img src={typescript} />
-            <span className={`${styles.tooltip} ${styles.style}`}>
-              Typescript
-            </span>
+            <span className={styles.tooltip}>Typescript</span>
           </div>
 
           <div className={styles.skill}>
             <img src={react} />
-            <span className={`${styles.tooltip} ${styles.style}`}>React</span>
+            <span className={styles.tooltip}>React</span>
           </div>
 
           <div className={styles.skill}>
             <img src={node} />
-            <span className={`${styles.tooltip} ${styles.style}`}>Node</span>
+            <span className={styles.tooltip}>Node</span>
           </div>
 
           <div className={styles.skill}>
             <img src={sql} />
-            <span className={`${styles.tooltip} ${styles.style}`}>SQL</span>
+            <span className={styles.tooltip}>SQL</span>
           </div>
         </div>
 
