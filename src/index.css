@@ -4,15 +4,16 @@
 /* Variables */
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: #1e3252;
-  --clr-primary-2: #2d3136;
+  --clr-primary-1: #16243b;
+  --clr-primary-2: #1e2023;
   --clr-primary-3: #f7df1e;
-  --clr-primary-4: #a24d4b;
-  --clr-primary-5: #1e1428;
-  --clr-primary-6: #b6789e;
-  --clr-primary-7: #5f64a4;
-  --clr-primary-8: #7895cd;
-  --clr-primary-9: #1e1428;
+  --clr-primary-4: #121212;
+  --clr-primary-5: #a24d4b;
+  --clr-primary-6: #1e1428;
+  --clr-primary-7: #b6789e;
+  --clr-primary-8: #5f64a4;
+  --clr-primary-9: #7895cd;
+  --clr-primary-10: #1e1428;
 
   --page-padding: 5rem 0;
   --padding: 1.5rem 0;
@@ -34,7 +35,7 @@
 body {
   font-size: 2em;
   font-weight: 550;
-  color: whitesmoke;
+  color: rgb(222, 222, 222);
   font-family: Roboto, sans-serif, Arial, Helvetica;
   letter-spacing: 1px;
   background-color: var(--clr-primary-1);
@@ -44,17 +45,17 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(
     180deg,
-    hsl(213deg 9% 19%) 0%,
-    hsl(218deg 16% 20%) 20%,
-    hsl(219deg 23% 21%) 29%,
-    hsl(219deg 30% 21%) 36%,
-    hsl(218deg 38% 22%) 43%,
+    hsl(214, 10%, 14%) 0%,
+    hsl(215, 17%, 14%) 20%,
+    hsl(216, 24%, 16%) 29%,
+    hsl(219, 30%, 18%) 36%,
+    hsl(219, 38%, 16%) 43%,
     hsl(217deg 46% 22%) 50%,
     hsl(218deg 38% 22%) 57%,
-    hsl(219deg 30% 21%) 64%,
-    hsl(219deg 23% 21%) 71%,
-    hsl(218deg 16% 20%) 80%,
-    hsl(213deg 9% 19%) 100%
+    hsl(218, 31%, 17%) 64%,
+    hsl(217, 24%, 15%) 71%,
+    hsl(218, 15%, 14%) 80%,
+    hsl(214, 10%, 14%) 100%
   );
 }
 
