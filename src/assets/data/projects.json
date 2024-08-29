@@ -4,7 +4,8 @@
     "title": "Games Up",
     "github": "https://github.com/denozy/Shopping-Cart",
     "liveURL": "https://denozy.github.io/Shopping-Cart/",
-    "description": "Mock games store using react states and useEffect hooks",
+    "description": "Mock games store using React hooks, React-Router-DOM, ROG API",
+    "content": "",
     "image": "/homepage/images/gamin.png",
     "moreImages": ["/images/gamin.png", "/images/gamin.png"],
     "slug": "games-up"
@@ -14,7 +15,8 @@
     "title": "Pokemon Match Em!",
     "github": "https://github.com/denozy/pokemon-memory-game",
     "liveURL": "https://denozy.github.io/pokemon-memory-game/",
-    "description": "Memory game using pokemon api, react states and useEffect hooks",
+    "description": "Memory game using React states, useEffect hook, and Pokemon API",
+    "content": "",
     "image": "/homepage/images/pokemon_matchem.png",
     "moreImages": ["/images/gamin.png", "/images/gamin.png"],
     "slug": "pokemon-match-em"
@@ -22,8 +24,8 @@
   {
     "id": "3",
     "title": "Dummy",
-    "github": "/",
-    "liveURL": "/",
+    "github": "",
+    "liveURL": "",
     "description": "Lorem ipsum and all that",
     "image": "/homepage/images/nebula-background.jpg",
     "slug": "dummy"
