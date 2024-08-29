@@ -1,6 +1,8 @@
 .postWrapper {
   margin: var(--margin);
   padding: var(--page-padding);
+  background-color: var(--clr-primary-2);
+  padding: 3rem;
   display: flex;
   flex-direction: column;
 }
@@ -27,7 +29,12 @@
   width: 100%;
 }
 
+.header {
+  font-weight: 550;
+}
+
 .content {
   font-size: var(--font-size);
+  font-weight: 200;
   text-indent: 3rem;
 }
