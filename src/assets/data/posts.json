@@ -36,25 +36,61 @@
 
   {
     "id": "2",
-    "title": "The Modern Coding Learning Experience",
+    "title": "’Learn to Code’ The Modern Experience",
     "author": "Nick DenBleyker",
     "date": "2024-08-26",
     "content": [
       {
         "type": "header",
-        "text": "Hey, i'm still writing this blog post, come back in a few days to check it out!"
+        "text": "Learning to code today"
       },
       {
         "type": "paragraph",
-        "text": ""
+        "text": "It's a vastly different experience than it was even 5 years ago. The tools at a beginner’s disposal are better than ever. There is an abundance of free information available. Complicated concepts have been abstracted into frameworks and libraries that do a lot of the heavy lifting in the background. As much as each of these is a massive boon, they also bring with them notable pitfalls."
+      },
+      {
+        "type": "header",
+        "text": "Better Tools Than Ever"
       },
       {
         "type": "paragraph",
-        "text": ""
+        "text": "Starting out, my first steps were to set up my coding environment. I went with what seemed like the obvious choices: a Windows PC, VMware for a Linux environment (Ubuntu, duh), and vanilla VS Code (soon to be stuffed with extensions, naturally). All neatly set up within 2 hours of diving into my first course site. All of this was available in some form a decade ago, but it would have taken a lot more effort for a beginner to get going. Why? Two reasons. One, these tools have been streamlined to be extremely accessible. Two, whenever I ran into an issue, I could describe it to ChatGPT. If that didn’t work, I then explained my problem to a Google search bar, which in most instances directed me to a video of someone solving my exact problem. EZ PZ LS. (The LS stands for lemon squeezy, by the way)."
       },
       {
         "type": "paragraph",
-        "text": ""
+        "text": "Here’s why that’s a little sticky though: I got used to problems being easy to solve. Nothing I was doing was interesting or new, so naturally, there was an abundance of available solutions. But what happens when you reach a point where the problem you’re trying to solve doesn't have a readily available solution from an LLM/blog post/YouTube video? These tools are great at solving problems, but unless you put a concerted effort into understanding what they are doing, you will learn nothing along the way. So then, what happens when you run into a problem that they don’t have a solution for?"
+      },
+      {
+        "type": "header",
+        "text": "Information Overload"
+      },
+      {
+        "type": "paragraph",
+        "text": "So you want to learn to code? That’s great!! Let me give you a couple of useful sources to get you started! Lists 4 websites, 6 YouTube channels, 2 AI assistants, 12 useful plugins. It’s overwhelming, and this is the situation regardless of what area of expertise you choose to specialize in. Do you want to be a software dev, web dev, AI engineer, back-end, front-end, full-stack, cloud, DevOps, or work in embedded systems? Each of these different areas comes with a different set of early instructions. Most beginners probably don’t even know what these paths entail—how could they, unless they had already been tuned into the tech space prior? And at that point, are they truly even beginners?"
+      },
+      {
+        "type": "paragraph",
+        "text": "It’s awesome that there is so much information that is readily available. There just happens to be so SO much that you can find yourself drowning in it. The solution to this, and what saved me time and time again in the early stages of learning, was following a course that laid out a pathway and linked to useful resources. This seems like the only option unless you come into the space with a very well-defined goal in mind already."
+      },
+      {
+        "type": "header",
+        "text": "It’s Complicated, Okay?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The libraries and frameworks we have today are amazing. Learning React greatly sped up my ability to spin up a basic website. The way it abstracted DOM manipulation just made so much more sense to me than it did in vanilla JavaScript. The functionality and ease of use of these frameworks raise the bar of expectations for websites. People grow accustomed to things looking and working a certain way. That’s natural. But that means to become proficient, a beginner also has to learn and understand a multitude of design patterns that just didn’t exist years ago."
+      },
+      {
+        "type": "paragraph",
+        "text": "There’s also the pitfall of skipping over the basics and jumping directly into a library or framework. Luckily, I was steered strongly away from this early in my learning journey, so I didn’t even consider it an option. Could I have jumped straight into learning React? Yeah. I think I would be far worse off for it today, though. I’ve always had the perspective that fundamentals are extremely important, but it’s also important to get someone building stuff as soon as possible. You learn more by building something you’re interested in than by reading docs or following tutorials, and it’s not even close."
+      },
+      {
+        "type": "header",
+        "text": "So, is learning to code today easier than it used to be?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes and no. Yes, there are more tools, guides, and free information available than ever. And no, the space is littered with tools that oversimplify and solve problems for you, guides that abstract away many of the necessary steps of reaching a working product, and so much free information that finding anything feels like attempting to take a sip of water while standing directly beneath a waterfall."
       }
     ],
     "excerpt": "Learning to code today is vastly different from how it was a decade ago",
