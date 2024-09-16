@@ -8,9 +8,17 @@
     "summary": "This gaming app was a fun way to solidify concepts of React hooks, React-Router-DOM, and fetching data from an API. The app is a mock games store where users can view games, add them to their cart, and view their cart. The app uses the RAWG API to fetch games data.",
     "image": "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/gamesup_pics/gamesup_home.png",
     "moreImages": [
-      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/gamesup_pics/gamesup_game.png"
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/gamesup_pics/gamesup_home.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/gamesup_pics/gamesup_game.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/gamesup_pics/gamesup_search.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/gamesup_pics/gamesup_cart.png"
     ],
-    "moreDetails": ["this is some details", "this is some more details"],
+    "moreDetails": [
+      "Search terms to generate game cards",
+      "Individual game page with more details",
+      "Input any game title to search for it",
+      "Add games to your cart and view them"
+    ],
     "slug": "games-up"
   },
   {
@@ -23,9 +31,22 @@
     "image": "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem.png",
     "moreImages": [
       "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_homescreen.png",
-      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_gameplay.png"
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_easy.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_gameplay.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/mathem_hard.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_loadingscreen.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_losescreen.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_winscreen.png"
     ],
-    "moreDetails": ["this is some details", "this is some more details"],
+    "moreDetails": [
+      "Game home page with rules and difficulty selection",
+      "Easy difficulty setup with 5 pokemon",
+      "Medium difficulty setup with 8 pokemon",
+      "Hard difficulty setup with 12 pokemon",
+      "Loading screen while fetching Pokemon data",
+      "Lose screen when user clicks a Pokemon more than once",
+      "Win screen when user clicks all Pokemon without repeats"
+    ],
     "slug": "pokemon-match-em"
   }
 ]

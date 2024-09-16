@@ -27,6 +27,7 @@
   flex-wrap: wrap;
   width: 100%;
   margin-left: 20%;
+  overflow: hidden;
 }
 
 .currentImage {
@@ -51,6 +52,7 @@
 
 .detailsText {
   font-weight: var(--font-weight);
+  font-size: var(--font-size);
 }
 
 .moreDetailsContainer {
