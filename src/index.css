@@ -22,6 +22,7 @@
   --font-weight: 400;
   --card-font-size: 1.2rem;
   --wrap-width: 40vw;
+  --hover-shadow: 0 4px 6px rgba(170, 167, 167, 0.2);
 }
 
 /* Global Styling */

@@ -20,6 +20,10 @@
   flex-grow: 1;
 }
 
+.postCard:hover {
+  box-shadow: var(--hover-shadow);
+}
+
 .title {
   padding: 5px 0;
 }
