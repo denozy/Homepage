@@ -30,11 +30,11 @@
 }
 
 .header {
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .content {
   font-size: var(--font-size);
-  font-weight: 200;
+  font-weight: var(--font-weight);
   text-indent: 3rem;
 }
