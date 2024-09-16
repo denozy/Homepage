@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 import styles from "../styles/componentStyles/projectsContainer.module.css";
-import githubIcon from "../assets/images/github.png";
+
 import backupImage from "../assets/images/audiodidacts-logo.png";
-import open from "../assets/images/open-in-new.png";
+import ProjectLinks from "./ProjectLinks";
 
 const ProjectCards = ({ project }) => {
   return (
@@ -20,38 +20,7 @@ const ProjectCards = ({ project }) => {
       <div className={styles.projectDetails}>
         <div>
           <h4>{project.title}</h4>
-          <div className={styles.linkIcons}>
-            {/* conditionally display github icon */}
-            {project.github ? (
-              <div className={styles.linkIcon}>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  className={styles.linkIcon}
-                >
-                  <img src={githubIcon} alt="github icon" />
-                </a>
-                <span className={styles.tooltip}>Open Github</span>
-              </div>
-            ) : (
-              ""
-            )}
-            {/* conditionally display liveurl icon */}
-            {project.liveURL ? (
-              <div className={styles.linkIcon}>
-                <a
-                  href={project.liveURL}
-                  target="_blank"
-                  className={styles.linkIcon}
-                >
-                  <img src={open} alt="open in new window" />
-                </a>
-                <span className={styles.tooltip}>Open Project</span>
-              </div>
-            ) : (
-              ""
-            )}
-          </div>
+          <ProjectLinks project={project} />
         </div>
         <p className={styles.projectText}>{project.description}</p>
       </div>

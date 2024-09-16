@@ -2,59 +2,30 @@
   {
     "id": "1",
     "title": "Games Up",
-    "github": "https://github.com/denozy/Shopping-Cart",
-    "liveURL": "https://denozy.github.io/Shopping-Cart/",
+    "github": "https://github.com/n-ad/Shopping-Cart",
+    "liveURL": "https://n-ad.github.io/Shopping-Cart/",
     "description": "Mock games store using React hooks, React-Router-DOM, ROG API",
-    "content": "this is the content",
-    "image": "/homepage/images/gamin.png",
-    "moreImages": ["/images/gamin.png", "/images/gamin.png"],
+    "summary": "This gaming app was a fun way to solidify concepts of React hooks, React-Router-DOM, and fetching data from an API. The app is a mock games store where users can view games, add them to their cart, and view their cart. The app uses the RAWG API to fetch games data.",
+    "image": "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/gamesup_pics/gamesup_home.png",
+    "moreImages": [
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/gamesup_pics/gamesup_game.png"
+    ],
+    "moreDetails": ["this is some details", "this is some more details"],
     "slug": "games-up"
   },
   {
     "id": "2",
     "title": "Pokemon Match Em!",
-    "github": "https://github.com/denozy/pokemon-memory-game",
-    "liveURL": "https://denozy.github.io/pokemon-memory-game/",
+    "github": "https://github.com/n-ad/pokemon-memory-game",
+    "liveURL": "https://n-ad.github.io/pokemon-memory-game/",
     "description": "Memory game using React states, useEffect hook, and Pokemon API",
-    "content": "",
-    "image": "/homepage/images/pokemon_matchem.png",
-    "moreImages": ["/homepage/images/gamin.png", "/images/gamin.png"],
+    "summary": "This memory game was my first project using React hooks. The app uses the Pokemon API to fetch Pokemon data and display them on cards. The user must click every Pokemon shown, if they click a particular pokemon more than once, they lose. If they can click them all without repeats, they win. The game keeps track of the user's score and high score, and offers 3 different difficulties to play.",
+    "image": "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem.png",
+    "moreImages": [
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_homescreen.png",
+      "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/matchem_pics/matchem_gameplay.png"
+    ],
+    "moreDetails": ["this is some details", "this is some more details"],
     "slug": "pokemon-match-em"
-  },
-  {
-    "id": "3",
-    "title": "Dummy",
-    "github": "",
-    "liveURL": "",
-    "description": "Lorem ipsum and all that",
-    "image": "https://nickdhomepagebucket.s3.us-east-2.amazonaws.com/pic.jpg",
-    "slug": "dummy"
-  },
-  {
-    "id": "4",
-    "title": "Dummy",
-    "github": "/",
-    "liveURL": "/",
-    "description": "Lorem ipsum and all that",
-    "image": "/homepage/images/nebula-background.jpg",
-    "slug": "dummy"
-  },
-  {
-    "id": "5",
-    "title": "Dummy",
-    "github": "/",
-    "liveURL": "/",
-    "description": "Lorem ipsum and all that",
-    "image": "/homepage/images/nebula-background.jpg",
-    "slug": "dummy"
-  },
-  {
-    "id": "6",
-    "title": "Dummy",
-    "github": "/",
-    "liveURL": "/",
-    "description": "Lorem ipsum and all that",
-    "image": "/homepage/images/nebula-background.jpg",
-    "slug": "dummy"
   }
 ]

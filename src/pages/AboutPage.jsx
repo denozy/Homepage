@@ -13,11 +13,10 @@ const AboutPage = () => {
             <h1>About Me</h1>
           </header>
           <div className={styles.resumeRedirect}>
-            If you&apos;re looking for my resume,
-            <strong className={styles.boldText}> check it out here </strong>
+            <p className={styles.resumeText}>Check out my Resume!</p>
             <FaArrowRight />
             <a
-              href="/homepage/resume_Nick_DenBleyker.pdf"
+              href="/homepage/public/Resume_Nick_DenBleyker-4.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -37,24 +36,43 @@ const AboutPage = () => {
         </section>
         <section className={styles.resumeBlock}>
           <h2 className={styles.resumeHeader}>Studies</h2>
-          <p className={styles.resumeText}></p>
+          <p className={styles.resumeText}>
+            <ul className={styles.aboutMeList}>
+              <li>
+                Appalachian State University - Bachelors, Health and Fitness
+              </li>
+              <li>
+                The Odin Project - Web Development fundamentals
+                <Link
+                  className={styles.aboutMeLink}
+                  to="/Posts/the-top-experience"
+                >
+                  Check out my post about learning with TOP!
+                </Link>
+              </li>
+              <li>
+                Comptia A+ - Utilized resources to gain understanding of
+                computer hardware and software fundamentals
+              </li>
+
+              <li>
+                Free Code Camp - So many turtoials and projects, so little time
+              </li>
+            </ul>
+          </p>
         </section>
         <section className={styles.resumeBlock}>
           <h2 className={styles.resumeHeader}>Work Life</h2>
-          <p className={styles.resumeText}></p>
-        </section>
-        <section className={styles.resumeBlock}>
-          <h2 className={styles.resumeHeader}>Courses||Certifications</h2>
-          <ul className={`${styles.certificationList} ${styles.resumeText}`}>
-            <li className={styles.certificationItem}>
-              The Odin Project - check out this{" "}
-              <Link to="/Posts/the-top-experience">post</Link> about my
-              experience learning web dev through TOP!
-            </li>
-
-            <li className={styles.certificationItem}>The Odin Project</li>
-          </ul>
-          <br />
+          <p className={styles.resumeText}>
+            <ul className={styles.aboutMeList}>
+              <li>Web Development - Hobbiest, 2022-Present</li>
+              <li>Audio Production - Freelance, 2021-Present</li>
+              <li>Personal Trainer - Fitness Together, 2020-2023</li>
+              <li>Sales Development Rep, SDR - IronNet, 2019-2020</li>
+              <li>Program Coordinator, HealthTrax, 2018-2019</li>
+              <li>Assistant Store Accountant, Harris Teeter, 2017-2018</li>
+            </ul>
+          </p>
         </section>
       </div>
     </article>

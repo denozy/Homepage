@@ -1,6 +1,7 @@
 [
   {
-    "id": "1",
+    "id": "0",
+    "display": true,
     "title": "The Odin Project Experience",
     "author": "Nick DenBleyker",
     "date": "2024-06-20",
@@ -30,12 +31,13 @@
     "excerpt": "My experience learning web development through The Odin Project",
     "tags": ["React", "JavaScript", "Web Development"],
     "category": "Programming",
-    "featuredImage": "https://example.com/path-to-image.jpg",
+    "featuredImage": "",
     "slug": "the-top-experience"
   },
 
   {
-    "id": "2",
+    "id": "1",
+    "display": true,
     "title": "’Learn to Code’ The Modern Experience",
     "author": "Nick DenBleyker",
     "date": "2024-08-26",
@@ -94,17 +96,53 @@
       }
     ],
     "excerpt": "Learning to code today is vastly different from how it was a decade ago",
-    "tags": ["React", "JavaScript", "Web Development"],
+    "tags": ["React", "JavaScript", "Web Development", "AI", "Programming"],
     "category": "Programming",
-    "featuredImage": "https://example.com/path-to-image.jpg",
-    "slug": "ai-hand-holding-and-learning-to-code"
+    "featuredImage": "",
+    "slug": "learn-to-code-the-modern-experience"
   },
 
   {
-    "id": "3",
-    "title": "One Step And Then Another, Gets You Where You're Going",
+    "id": "2",
+    "display": true,
+    "title": "'One Step And Then Another, Gets You Where You're Going' - Sister Creep",
     "author": "Nick DenBleyker",
     "date": "2024-08-28",
+    "content": [
+      {
+        "type": "header",
+        "text": "Incremental Progress"
+      },
+      {
+        "type": "paragraph",
+        "text": "'Swan Song' by Robert A. McCammon is one of my favorite books. Sister Ines (or Sister Creep) is a prominent character throughout the story, and her motto is one of the major things that has stuck with me after finishing the story. 'One step and then another, gets ya where you're goin.' You can accomplish nearly anything with consistency of applied effort directed toward a specific goal. Be it your goals in personal fitness, your knowledge base on a particular topic, or a project you're working on."
+      },
+      {
+        "type": "paragraph",
+        "text": "In terms of your own health, a little effort every single day goes a long way. A common failure people encounter when trying to improve their fitness is a lack of consistency. Sure, they may be dedicated to their diet and exercise routine for a period of time, one month, one year even. However if they fall off and revert to bad practices, much of that progress seemingly disappears. In my time working in fitness, I often addressed this as a need to make lasting lifestyle changes, rather than attempting an extremely strict crash diet or pushing yourself to the point of total burnout in your workouts. Even if it doesn't feel like much progress is being made, you can make a world of difference in your health by just doing a little bit over a long period of time."
+      },
+
+      {
+        "type": "paragraph",
+        "text": "You can apply the same formula to anything in life, I've found it especially effective when learning something. Tell yourself 'I'm going to put an hour into making my website, app, etc, better every single day.' On the day to day basis it probably won't feel like you've accomplished all that much. But a few years or even a few months down the line you'll be able to look back at the starting point and see that mountain of progress you've made."
+      },
+      {
+        "type": "paragraph",
+        "text": ""
+      }
+    ],
+    "excerpt": "Motivation and consistency are key to learning",
+    "tags": ["Motivation", "Programming", "Literature"],
+    "category": "Motivational",
+    "featuredImage": "",
+    "slug": "one-step-and-then-another"
+  },
+  {
+    "id": "3",
+    "display": false,
+    "title": "Manufacturing Consent in the Digital Age",
+    "author": "Nick DenBleyker",
+    "date": "2024-08-30",
     "content": [
       {
         "type": "header",
@@ -124,10 +162,10 @@
         "text": ""
       }
     ],
-    "excerpt": "Motivation and consistency are key to learning",
-    "tags": ["React", "JavaScript", "Web Development"],
-    "category": "Programming",
-    "featuredImage": "https://example.com/path-to-image.jpg",
-    "slug": "my-top-experience"
+    "excerpt": "How your perspective is shaped by the media you consume",
+    "tags": ["AI", "Bots", "Internet Culture"],
+    "category": "Social",
+    "featuredImage": "",
+    "slug": "manufacturing-consent-in-the-digital-age"
   }
 ]
