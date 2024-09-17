@@ -16,20 +16,28 @@ const SingleProjectPage = () => {
   const { slug } = useParams();
   const project = projects.find((post) => post.slug === slug);
   return (
-    <article>
+    <article className={styles.projectWrapper}>
       <header className={styles.heading}>
         <h1>{project.title}</h1>
       </header>
       <div className={styles.moreDetailsContainer}>
+        <h2 className={styles.detailsHeading}>Project Summary</h2>
         <p className={styles.summaryText}>{project.summary}</p>
-        <ProjectLinks project={project} />
+        <div className={styles.linkIcons}>
+          <ProjectLinks project={project} />
+        </div>
       </div>
-      <div className={styles.projectWrapper}>
+      <div className={styles.projectImages}>
         <img
           src={project.moreImages[currentImage]}
           alt={project.title}
           className={styles.currentImage}
         />
+        <div className={styles.moreDetailsContainer}>
+          <p className={styles.detailsText}>
+            {project.moreDetails[currentDetail]}
+          </p>
+        </div>
         <div className={styles.projectImagesContainer}>
           {project.moreImages.map((image, index) => (
             <img
@@ -42,11 +50,6 @@ const SingleProjectPage = () => {
             />
           ))}
         </div>
-      </div>
-      <div className={styles.moreDetailsContainer}>
-        <p className={styles.detailsText}>
-          {project.moreDetails[currentDetail]}
-        </p>
       </div>
     </article>
   );
